@@ -44,6 +44,7 @@ public class RootViewModel : Screen, IHandle<NotificationMessage>, IDisposable
 
     private async Task ShowUkraineSupportMessageAsync()
     {
+        return;
         if (!_settingsService.IsUkraineSupportMessageEnabled)
             return;
 
